@@ -50,12 +50,13 @@
                 <h1 class="font-secondary text-white mb-n2">Dung <span class="text-primary">&</span> Long</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <!-- <a href="#story" class="nav-item nav-link">Story</a>
+                <!-- <a href="#story" class="nav-item nav-link">Story</a> -->
 
-                <a href="#gallery" class="nav-item nav-link">Gallery</a> -->
                 <a href="#event" class="nav-item nav-link">Event</a>
                 
                 <a href="#rsvp" class="nav-item nav-link">Maps</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+
                 
             </div>
         </div>
@@ -209,24 +210,17 @@
             <div class="row">
                 <div class="col-md-12 " data-aos="fade-up">
                     <div class="text-center  mb-4 mb-md-0">
-                        <h4 class="mb-3">Nhà gái</h4>
-                        <h5 class="mb-2">593 Ngô Gia Tự - Phường Ninh Xá - Thành Phố Bắc Ninh</h5>
+                        <h4 class="mb-3 gender">Nhà gái</h4>
+                        <h5 class="mb-2" id="address">593 Ngô Gia Tự - Phường Ninh Xá - Thành Phố Bắc Ninh</h5>
                         <!-- <img class="img-fluid mb-4" src="img/hv.jpg" alt=""> -->
                      
                     </div>
                 </div>
-               <!--  <div class="col-md-6">
-                    <div class="text-center text-md-left ml-md-3" data-aos="fade-left">
-                        <h4 class="mb-3">Nhà gái</h4>
-                        <h5 class="mb-2">27 Hoàng Hoa Thám - Bò Sơn - Phường Võ Cường - Thành Phố Bắc Ninh</h5>
-                    </div>
-                </div> -->
             </div>
-
             <div class="row">
                  <div class="col-12 text-center" data-aos="fade-up">
-                     <h5 class="font-weight-normal text-muted pt-3">Vào hồi 10 giờ, Chủ nhật</h5>
-                     <h5 class="font-weight-normal text-muted ">Ngày 1 tháng 1 năm 2023</h5>
+                     <h5 class="font-weight-normal text-muted pt-3"  id="time">Vào hồi 10 giờ, Chủ nhật</h5>
+                     <h5 class="font-weight-normal text-muted "  id="date">Ngày 1 tháng 1 năm 2023</h5>
                  </div>
             </div>
         </div>
@@ -284,8 +278,26 @@
     </div> -->
     <!-- Story End -->
 
-
-    <!-- Gallery Start -->
+    <!-- RSVP Start -->
+    <div class="container-fluid pb-5" id="rsvp">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
+                <h1 class="font-secondary display-4">Join Our Party</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 ">
+                    <div class="  " id="map-google">
+                        <h4 class="mb-3 text-center gender">Nhà gái</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.1548538522657!2d106.06050400058356!3d21.179852385875957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350ea99fe54489%3A0x250a8e9885e307cc!2zNTkzIMSQLiBOZy4gR2lhIFThu7EsIFAuVGnhu4FuIEFuLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1671639063410!5m2!1svi!2s"  height="450" id="map-nhagai" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- RSVP End -->
+        <!-- Gallery Start -->
     <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
         <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
             <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
@@ -305,12 +317,6 @@
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
-          <!--   <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/DungLong/8.jpg" alt="">
-                <a href="img/DungLong/8.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div> -->
             <div class="gallery-item">
                 <img class="img-fluid w-100" src="img/DungLong/4.jpg" alt="">
                 <a href="img/DungLong/4.jpg" data-lightbox="gallery">
@@ -332,143 +338,6 @@
         </div>
     </div>
     <!-- Gallery End -->
-
-
-
-
-
-    <!-- Friends & Family Start -->
-   <!--  <div class="container-fluid py-5" id="family">
-        <div class="container pt-5 pb-3">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Friends & Family</h6>
-                <h1 class="font-secondary display-4">Groomsmen & Bridesmaid</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Groomsmen</li>
-                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">Bridesmaid</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/groomsmen-1.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/bridesmaid-1.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/groomsmen-2.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/bridesmaid-2.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/groomsmen-3.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative mb-2">
-                        <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
-                        <div class="bg-secondary text-center p-4">
-                            <h4 class="mb-3">Full Name</h4>
-                            <p class="text-uppercase">Best Friend</p>
-                            <div class="d-inline-block">
-                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Friends & Family End -->
-
-
-    <!-- RSVP Start -->
-    <div class="container-fluid py-5" id="rsvp">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
-                <h1 class="font-secondary display-4">Join Our Party</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12 ">
-                    <div class="  ">
-                        <h4 class="mb-3 text-center">Nhà gái</h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.1548538522657!2d106.06050400058356!3d21.179852385875957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350ea99fe54489%3A0x250a8e9885e307cc!2zNTkzIMSQLiBOZy4gR2lhIFThu7EsIFAuVGnhu4FuIEFuLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1671639063410!5m2!1svi!2s"  height="450"  class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- RSVP End -->
 
 
     <!-- Footer Start -->
@@ -515,8 +384,51 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-  AOS.init();
-</script>
+        AOS.init();
+          var data = [{
+                    gender: 'Nhà gái',
+                    address: '593 Ngô Gia Tự - Phường Ninh Xá - Thành Phố Bắc Ninh',
+                    time: 'Vào hồi 10 giờ, Chủ nhật',
+                    date: ' Ngày 1 tháng 1 năm 2023 ',
+                    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.1548538522657!2d106.06050400058356!3d21.179852385875957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350ea99fe54489%3A0x250a8e9885e307cc!2zNTkzIMSQLiBOZy4gR2lhIFThu7EsIFAuVGnhu4FuIEFuLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1671639063410!5m2!1svi!2s"  height="450"  class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+                    // bank: '/img/ThuHoang/bank_groom.jpg'
+                },
+                {
+                    gender: 'Nhà trai',
+                    address: 'Xóm Phúc Hậu - Thôn Lũng Sơn - Thị Trấn Lim - Huyện Tiên Du - Tỉnh Bắc Ninh',
+                    time: 'Vào hồi 10 giờ, Chủ nhật',
+                    date: ' Ngày 1 tháng 1 năm 2023 ',
+                    // bank: '/img/ThuHoang/bank_bride.jpg',
+                    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.3000271356965!2d106.02441328097457!3d21.144433272780645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509a2bc444a97%3A0xb60826791c741398!2zUGjDumMgaOG6rXUsdGjhu4sgdHLhuqVuIGxpbSx0acOqbiBkdSxi4bqvYyBuaW5o!5e0!3m2!1svi!2s!4v1671723085978!5m2!1svi!2s" width="600" height="450" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+
+                }
+            ]
+            const urlParams = new URLSearchParams(window.location.search);
+            const myParam = urlParams.get('id');
+            if (myParam.toLocaleLowerCase() == 'nhatrai') {
+                setData(data[1])
+                $('#map-nhagai').css('display','none')
+            } else{
+                setData(data[0])
+                // console.log(urlParams)
+            }
+
+             function setData(data) {
+                var gender = document.getElementsByClassName('gender')
+                var address = document.getElementById('address')
+                var time = document.getElementById('time')
+                var date = document.getElementById('date')
+                var map = document.getElementById('map-google')
+                var bank = document.getElementById('bank')
+                gender[0].innerText = data.gender
+                gender[1].innerText = data.gender
+                address.innerText = data.address
+                time.innerText = data.time
+                date.innerText = data.date
+                map.innerHTML += data.map
+                // bank.setAttribute('src', data.bank)
+            }
+    </script>
 </body>
 
 </html>
