@@ -500,7 +500,9 @@
         <script type="text/javascript">
         function myfunction() {
             $('#preloader').fadeOut();
-            document.getElementById('myVideo').play();
+//             document.getElementById('myVideo').play();
+             var audio = new Audio('img/music.mp3');
+        audio.play();
         }
         // $(window).on('load', function() {
         //     var isMobile = false; //initiate as false
