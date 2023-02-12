@@ -98,6 +98,21 @@ p {
     margin-bottom: 1rem;
 }
 
+#preloader img {
+    top: 35%;
+    left: 30%;
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    #preloader img {
+        left: 0;
+        height: 100px;
+        width: 100px;
+    }
+}
+
 abbr[title],
 abbr[data-original-title] {
     text-decoration: underline;
@@ -7897,6 +7912,8 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+
+
     .float-md-left {
         float: left !important;
     }
