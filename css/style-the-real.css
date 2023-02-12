@@ -291,6 +291,16 @@ button:focus {
     font-size: 38px;
 }
 
+#preloader img {
+    top: 35% !important;
+    left: 30% !important;
+    height: 200px !important;
+    width: 200px !important;
+}
+
+
+
+
 /*------------------------------------------------------------------
     HEADER
 -------------------------------------------------------------------*/
@@ -833,4 +843,28 @@ select.form-control:not([size]):not([multiple]) {
 
 .footer-box .footer-company-name a:hover {
     color: #63c7bd;
+}
+
+#logo p {
+    font-size: 40px !important;
+}
+
+@media (max-width: 768px) {
+    #preloader img {
+        left: 0 !important;
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    #logo p {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 310px) {
+
+
+    #logo p {
+        font-size: 20px !important;
+    }
 }
