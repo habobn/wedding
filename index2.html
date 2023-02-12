@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Site Metas -->
+    <title>Wedding</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Site Icons -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style-the-real.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+    <!-- LOADER -->
+    <div id="preloader">
+        <img src="img/giphy.gif" onclick="myfunction()" style="height: 200px;width: 200px;position: absolute;top: 35%;left: 30%">
+        <div class="preloader pulse" onclick="myfunction()">
+            <i class="fa fa-heartbeat" aria-hidden="true"></i>
+        </div>
+    </div><!-- end loader -->
+    <video id="myVideo" width="320" loop height="176" style="opacity: 0;position: fixed; ;">
+        <source src="img/music.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <script type="text/javascript">
+    function myfunction() {
+        $('#preloader').fadeOut();
+        document.getElementById('myVideo').play();
+    }
+    </script>
+    <!-- END LOADER -->
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1 style="font-family: 'Marck Script', cursive;font-size: 45px;">Hoàng <span class="text-primary">&</span> Huyền</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <!-- <li><a class="nav-link" href="#story">Story</a></li> -->
+                        <!-- <li><a class="nav-link" href="#family">Family</a></li> -->
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li><a class="nav-link" href="#events">Events</a></li>
+                        <li><a class="nav-link" href="#Maps">Maps</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- Start Banner -->
+    <div class="ulockd-home-slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="pogoSlider" id="js-main-slider">
+                    <div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(img/carousel-1.jpg);">
+                        <div class="lbox-caption">
+                            <div class="lbox-details">
+                                <h1>Hoàng & Huyền</h1>
+                                <h2>We're getting married</h3>
+                                    <p>Save The Date <strong>24 Nov 2022</strong></p>
+                                    <!-- <a href="#" class="btn ">Contact</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(img/carousel-2.JPG);">
+                        <div class="lbox-caption">
+                            <div class="lbox-details">
+                                <h1>Hoàng & Huyền</h1>
+                                <h2>We're getting married</h3>
+                                    <p>Save The Date <strong>24 Nov 2022</strong></p>
+                                    <!-- <a href="#" class="btn ">Contact</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(img/gallery.jpg);">
+                        <div class="lbox-caption">
+                            <div class="lbox-details">
+                                <h1>Hoàng & Huyền</h1>
+                                <h2>We're getting married</h3>
+                                    <p>Save The Date <strong>24 Nov 2022</strong></p>
+                                    <!-- <a href="#" class="btn">Contact</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .pogoSlider -->
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+    <!-- Start About us -->
+    <div id="about" class="about-box">
+        <div class="about-a1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box">
+                            <h2>About Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row align-items-center about-main-info">
+                            <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+                                <h2> <span>The Groom</span></h2>
+                                <h2><i class="fa fa-male text-primary pr-3"></i>Bùi Huy Hoàng</h2>
+                                <!--  <p class="font-secondary font-weight-normal text-muted mb-3"></p> -->
+                                <h3>Sinh: 1998</h3>
+                                <h3>Bố: Bùi Đăng Vấn</h3>
+                                <h3>Mẹ: Phạm Thị Mai</h3>
+                                <div class="position-relative">
+                                    <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a> -->
+                                    <a class="btn btn-outline-primary btn-square mr-1" href="https://www.facebook.com/bui.hoang.37201901"><i class="fa fa-facebook-f"></i></a>
+                                    <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                                    <!-- <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 px-0" style="min-height: 400px;">
+                                <div class="about-img">
+                                    <img style="object-fit: cover; object-position: top;" class="img-fluid rounded position-absolute w-100 h-100" src="img/hv.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center about-main-info">
+                            <div class="col-lg-6 col-md-6 col-sm-12 px-0" style="min-height: 400px;">
+                                <div class="about-img">
+                                    <img style="object-fit: cover; object-position: top;" class="img-fluid rounded position-absolute w-100 h-100" src="img/hu.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h2> <span>The Bride</span></h2>
+                                <h2><i class="fa fa-female text-primary pr-3"></i>Vũ Thị Thanh Huyền</h2>
+                                <!--  <p class="font-secondary font-weight-normal text-muted mb-3"></p> -->
+                                <h3>Sinh: 1998</h3>
+                                <h3>Bố: Vũ Văn Hưng</h3>
+                                <h3>Mẹ: Nguyễn Thị Năm</h3>
+                                <div class="position-relative">
+                                    <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-instagram"></i></a> -->
+                                    <a class="btn btn-outline-primary btn-square mr-1" href="https://www.facebook.com/thanhhuyen9899"><i class="fa fa-facebook-f"></i></a>
+                                    <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                                    <!-- <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About us -->
+    <!-- Start Story -->
+    <!--   <div id="story" class="story-box main-timeline-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                        <h2>Our Story</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element separline">
+                <div class="timeline-date-panel col-xs-12 col-md-6  align-left">
+                    <div class="time-line-date-content">
+                        <p class="mbr-timeline-date mbr-fonts-style display-font">
+                            1 March 2018
+                        </p>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-xs-12 col-md-6 align-left">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">First meet</h4>
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">
+                            We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element reverse separline">
+                <div class="timeline-date-panel col-xs-12 col-md-6  align-left">
+                    <div class="time-line-date-content">
+                        <p class="mbr-timeline-date mbr-fonts-style display-font">
+                            2 April 2018
+                        </p>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-xs-12 col-md-6 align-right">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">First date</h4>
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">
+                            We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element separline">
+                <div class="timeline-date-panel col-xs-12 col-md-6  align-left">
+                    <div class="time-line-date-content">
+                        <p class="mbr-timeline-date mbr-fonts-style display-font">
+                            1 May 2018
+                        </p>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-xs-12 col-md-6 align-left">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Proposal</h4>
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">
+                            Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-element reverse separline">
+                <div class="timeline-date-panel col-xs-12 col-md-6  align-left">
+                    <div class="time-line-date-content">
+                        <p class="mbr-timeline-date mbr-fonts-style display-font">
+                            2 June 2018
+                        </p>
+                    </div>
+                </div>
+                <span class="iconBackground"></span>
+                <div class="col-xs-12 col-md-6 align-right">
+                    <div class="timeline-text-content">
+                        <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Engagement</h4>
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">
+                            Proin tempus felis quis justo pretium interdum. Praesent sollicitudin lectus eu mattis egestas. Praesent luctus magna at dignissim placerat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Story -->
+    <!-- Start Family -->
+    <!-- <div id="family" class="family-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                        <h2>Family</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-01.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Alonso Wiles </h4>
+                            <p>{ Hoàng’s Father }</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-02.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Evon Wiles </h4>
+                            <p>{ Hoàng’s Mother }</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-03.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Chris Wiles </h4>
+                            <p>{ Hoàng’s Brother }</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-04.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Adina Wiles </h4>
+                            <p>{ Hoàng’s Sister }</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-05.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Annetta Wiles </h4>
+                            <p>{ Hoàng’s Sister }</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-team-member">
+                        <div class="family-img">
+                            <img class="img-fluid" src="img/family-06.jpg" alt="" />
+                        </div>
+                        <div class="family-info">
+                            <h4>Mr. Ladonna Wiles </h4>
+                            <p>{ Hoàng’s Sister }</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Family -->
+    <!-- Start Gallery -->
+    <div id="gallery" class="gallery-box">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                        <h2>Gallery</h2>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="popup-gallery clearfix">
+                    <li>
+                        <a href="img/gallery-1.jpg">
+                            <img class="img-fluid" src="img/gallery-1.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-2.jpg">
+                            <img class="img-fluid" src="img/gallery-2.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-3.jpg">
+                            <img class="img-fluid" src="img/gallery-3.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-4.jpg">
+                            <img class="img-fluid" src="img/gallery-4.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-5.jpg">
+                            <img class="img-fluid" src="img/gallery-5.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-6.jpg">
+                            <img class="img-fluid" src="img/gallery-6.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/story-2.jpg">
+                            <img class="img-fluid" src="img/story-2.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/story-5.jpg">
+                            <img class="img-fluid" src="img/story-5.jpg" alt="single image">
+                            <span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Events -->
+    <div id="events" class="events-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                        <h2>Events</h2>
+                        <!-- <p style="">♥</p> -->
+                        <h3 class="font-weight-normal text-muted mb-3 pb-3" style="color: black" data-aos="fade-down">Trân trọng kính mời quý vị đến dự bữa cơm thân mật và chung vui cùng gia đình chúng tôi tại</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border-right border-primary" data-aos="fade-right">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <h2 class="mb-3 font-weight-bold">Nhà trai</h2>
+                        <h3 class="mb-2 font-weight-bold">54 Nguyễn Giản Thanh - Suối Hoa - Thành Phố Bắc Ninh</h3>
+                        <!-- <img class="img-fluid mb-4" src="img/hv.jpg" alt=""> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3" data-aos="fade-left">
+                        <h2 class="mb-3 font-weight-bold">Nhà gái</h2>
+                        <h3 class="mb-2 font-weight-bold">27 Hoàng Hoa Thám - Bò Sơn - Phường Võ Cường - Thành Phố Bắc Ninh</h3>
+                        <!-- <img class="img-fluid mb-4" src="img/hu.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <h3 class="font-weight-normal text-muted pt-3">Vào hồi 17 giờ, Thứ 5</h3>
+                    <h3 class="font-weight-normal text-muted ">Ngày 24 tháng 11 năm 2022</h3>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="event-inner">
+                        <div class="event-img">
+                            <img class="img-fluid" src="img/event-img-01.jpg" alt="" />
+                        </div>
+                        <h2>2 June 2018 Engagement</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                        <a href="#">See location ></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="event-inner">
+                        <div class="event-img">
+                            <img class="img-fluid" src="img/event-img-02.jpg" alt="" />
+                        </div>
+                        <h2>3 June 2018 Main Ceremony </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                        <a href="#">See location ></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="event-inner">
+                        <div class="event-img">
+                            <img class="img-fluid" src="img/event-img-03.jpg" alt="" />
+                        </div>
+                        <h2>4 June 2018 Wedding party </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                        <a href="#">See location ></a>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+    </div>
+    <!-- End Events -->
+    <!-- RSVP Start -->
+    <div class="container-fluid py-5" id="Maps">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                        <h2>Join Our Party</h2>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 ">
+                    <div class=" ">
+                        <!-- <img class="img-fluid mb-4" src="img/event-1.jpg" alt=""> -->
+                        <h2 class="mb-3 text-center font-weight-bold">Nhà trai</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.199895158031!2d106.07029091540392!3d21.184216687827824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350c1b215bbd1f%3A0x506797bd8694d748!2zNTQgTmd1eeG7hW4gR2nhuqNuIFRoYW5oLCBTdeG7kWkgSG9hLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1667913462442!5m2!1svi!2s" height="450" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="  ">
+                        <h2 class="mb-3 text-center font-weight-bold">Nhà gái</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.5137984119156!2d106.05387301540378!3d21.171738888256712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509533d6d564d%3A0xe67ea91e71e490bf!2zMjcgxJAuIEhvw6BuZyBIb2EgVGjDoW0sIFbDtSBDxrDhu51uZywgQuG6r2MgTmluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1667913519395!5m2!1svi!2s" height="450" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- RSVP End -->
+    <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2023 Design By : <a href="https://www.facebook.com/hanguyenbo/">Ha Nguyen </a> Zalo : <a href="https://www.facebook.com/hanguyenbo/"> 0985 902 398</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- ALL JS FILES -->
+    <script src="js/demo2/jquery.min.js"></script>
+    <script src="js/demo2/popper.min.js"></script>
+    <script src="js/demo2/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/demo2/jquery.magnific-popup.min.js"></script>
+    <script src="js/demo2/jquery.pogo-slider.min.js"></script>
+    <script src="js/demo2/slider-index.js"></script>
+    <script src="js/demo2/smoothscroll.js"></script>
+    <script src="js/demo2/form-validator.min.js"></script>
+    <script src="js/demo2/contact-form-script.js"></script>
+    <script src="js/demo2/custom.js"></script>
+</body>
+
+</html>
