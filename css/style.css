@@ -10651,6 +10651,13 @@ a.text-dark:focus {
 .font-secondary {
     font-family: 'Great Vibes', cursive;
 }
+@font-face {
+    font-family:Sacramento;
+    src: url(/fonts/UNI_DA_Sacramento.ttf);
+  }
+.font-secondary1{
+    font-family: Sacramento, Arial, serif;
+}
 
 .btn-square {
     width: 40px;
